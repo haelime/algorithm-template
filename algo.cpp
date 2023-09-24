@@ -14,6 +14,6 @@ using pi = pair<int, int>;
 int main(void)
 {
 	FASTIO;
-
+	
 	return 0;
 }
