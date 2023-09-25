@@ -10,13 +10,14 @@ path = os.getcwd()
 files = os.listdir(path)
 
 
+#
+# 아무 생각 없이 수정하고 실행하면 매우매우매우매우매우매우 위험한 결과가 발생할 수 있음!!!!!!!!!!!!!!!!!!!!!!!!!
+#
+
 
 # remove files ending in .cpp
-files = [f for f in files if f.endswith(".cpp") and
-f != "algo.cpp" and f != "template.cpp"]
+files = [f for f in files if (f.endswith(".cpp") or f.endswith(".bin")) and f != "algo.cpp" and f != "template.cpp" != "stdc++.h"]
 
-# remove 
-files = [f for f in files if f != "algo.cpp" and f != "template.cpp"]
 for f in files:
 	os.remove(f)
 	print("removed " + f)
