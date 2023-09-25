@@ -28,7 +28,7 @@ print("copied template.cpp to algo.cpp")
 
 # remove all files in .cph directory
 path = path + "/.cph"
-files += os.listdir(path)
+files = os.listdir(path)
 for f in files:
 	os.remove(path + "/" + f)
 	print("removed " + f)
