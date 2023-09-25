@@ -24,7 +24,8 @@ for f in files:
 
 # copy template.cpp to algo.cpp
 shutil.copyfile("template.cpp", "algo.cpp")
-print("copied template.cpp to algo.cpp")
+shutil.copyfile("template.py", "snek.py")
+print("template copied")
 
 # remove all files in .cph directory
 path = path + "/.cph"
