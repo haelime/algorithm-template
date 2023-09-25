@@ -12,6 +12,9 @@ clone this repo with terminal
 ```sh
 git clone git@github.com:haelime/algorithm-template.git
 ```
+
+<br>
+
 you need to download Chrome extension
 
 and VSCode extension too.
@@ -20,6 +23,7 @@ and VSCode extension too.
 
 [CPH judge](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper)
 
+<br>
 
 with these, you can parse problem testcases to VSCode simply clicking green button on your browser.
 
