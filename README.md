@@ -37,7 +37,7 @@ with these, you can parse problem testcases to VSCode simply clicking green butt
 
 ## cleanersnek.py
 
-remove any other cpp files & clear problem data
+removes any other files & clear problem data
 
 ```sh
 # CHECK YOUR FILES BEFORE RUN IT
