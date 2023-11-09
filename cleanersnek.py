@@ -15,7 +15,7 @@ files = os.listdir(path)
 #
 
 originalfiles = ["algo.cpp", "template.cpp", "template.py", "cleanersnek.py",
-				"snek.py", ".gitignore", "README.md", ".cph", ".git", "bits"]
+				"snek.py", ".gitignore", "README.md", ".cph", ".git", "bits", ".vscode"]
 
 # remove files ending in .cpp
 files = [f for f in files if not f in originalfiles]
