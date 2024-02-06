@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 #include <cstdio>
 #define ll long long
+#define ull unsigned long long
 #define ld long double
 #define FASTIO                        \
 	ios_base::sync_with_stdio(false); \
