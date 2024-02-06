@@ -12,9 +12,11 @@
 #define INF (int)(~0U >> 2)
 using namespace std;
 using pi = pair<int, int>;
+ull gcd(ull a, ull b) { return a % b ? gcd(b, a % b) : b; }
+ull lcm(ull a, ull b) { return (a * b) / gcd(a, b); }
 int main(void)
 {
 	FASTIO;
-	
+
 	return 0;
 }
