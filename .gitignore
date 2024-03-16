@@ -2,3 +2,5 @@
 .cph
 *.dSYM
 settings.json
+launch.json
+tasks.json
